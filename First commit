@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>[Your Name] - Web Developer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Hi, I'm [Your Name]</h1>
+        <p>A passionate web developer creating stunning and functional websites.</p>
+        <a href="#portfolio" class="btn">Check out my work</a>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>With over [X] years of experience in web development, I've worked on a variety of projects ranging from simple websites to complex web applications...</p>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>React</li>
+            <li>Angular</li>
+            <li>Node.js</li>
+            <li>Python</li>
+            <li>PHP</li>
+            <li>SQL</li>
+            <li>Git</li>
+            <li>Adobe Photoshop</li>
+            <li>Figma</li>
+        </ul>
+    </section>
+
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <div class="project">
+            <h3>E-commerce Website</h3>
+            <p>Developed a fully functional e-commerce website with a modern UI, integrated payment gateway, and user-friendly admin panel.</p>
+            <p>Technologies Used: React, Node.js, MongoDB, Stripe API.</p>
+            <a href="#" class="btn">View Project</a>
+        </div>
+        <div class="project">
+            <h3>Personal Blog</h3>
+            <p>Created a responsive personal blog with a content management system and SEO optimization.</p>
+            <p>Technologies Used: WordPress, PHP, MySQL.</p>
+            <a href="#" class="btn">View Project</a>
+        </div>
+    </section>
+
+    <section id="services">
+        <h2>Services</h2>
+        <p>I offer a range of services including web development, web design, SEO optimization, and ongoing website maintenance...</p>
+    </section>
+
+    <section id="testimonials">
+        <h2>Testimonials</h2>
+        <blockquote>
+            <p>Working with [Your Name] was a fantastic experience. The website exceeded our expectations and has significantly improved our online presence.</p>
+            <footer>— Client 1</footer>
+        </blockquote>
+        <blockquote>
+            <p>[Your Name] delivered exactly what we needed, on time and on budget. Highly recommend!</p>
+            <footer>— Client 2</footer>
+        </blockquote>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <form action="https://formspree.io/f/your-form-id" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="subject">Subject:</label>
+            <input type="text" id="subject" name="subject" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+        <p>Email: [inyabaumar@gmail.com], Phone: [+233554235972],  GitHub: [https://github.com/HuzFau/Portofolio]</p>
+    </section>
+</body>
+</html>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    margin: 0.5em 0;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.5em 1em;
+    color: #fff;
+    background: #007bff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+section {
+    padding: 2em;
+    margin: 1em 0;
+    background: #fff;
+}
+
+h2 {
+    color: #333;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    background: #eee;
+    margin: 0.5em 0;
+    padding: 0.5em;
+    border-radius: 5px;
+}
+
+.project {
+    margin: 1em 0;
+    padding: 1em;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background: #fafafa;
+}
+
+.project h3 {
+    margin: 0 0 0.5em;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 1em;
+}
+
+input, textarea {
+    padding: 0.5em;
+    margin-top: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    margin-top: 1em;
+    padding: 0.5em 1em;
+    background: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+blockquote {
+    margin: 1em 0;
+    padding: 1em;
+    background: #f9f9f9;
+    border-left: 5px solid #ccc;
+}
+
+blockquote footer {
+    text-align: right;
+    color: #555;
+}
